@@ -3,3 +3,4 @@
 	* [kill.d](kill.md)
 	* [newproc.d](newproc.md)
 	* [sigdist.d](sigdist.md)
+	* [syscallbypid.d](syscallbypid.md)

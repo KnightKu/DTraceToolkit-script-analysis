@@ -4,3 +4,5 @@
 	* [newproc.d](newproc.md)
 	* [sigdist.d](sigdist.md)
 	* [syscallbypid.d](syscallbypid.md)
+* [Locks](Locks.md)
+	* [lockbydist.d](lockbydist.md)

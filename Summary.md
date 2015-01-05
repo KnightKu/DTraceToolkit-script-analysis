@@ -6,3 +6,4 @@
 	* [syscallbypid.d](syscallbypid.md)
 * [Locks](Locks.md)
 	* [lockbydist.d](lockbydist.md)
+	* [lockbyproc.d](lockbyproc.md)

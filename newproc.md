@@ -3,7 +3,7 @@
 
     proc:::exec-success { trace(curpsinfo->pr_psargs); }
 
-脚本代码分析如下：
+脚本代码分析如下：  
 监听`exec-success` `probe`（只有`exec`系统调用执行成功才会触发这个`probe`），其中`curpsinfo`是`psinfo_t`类型变量，`pr_psargs`成员记录了命令行参数。当`probe`触发后，打印整个新进程的命令行参数。
 
 执行脚本，输出如下：
@@ -15,4 +15,5 @@
       0   3177         exec_common:exec-success   iostat -x 5 2
       4   3177         exec_common:exec-success   grep -vi dev
       5   3177         exec_common:exec-success   grep -v ^$
-参考资料：[proc Provider](http://dtrace.org/guide/chapter25.html)。
+参考资料：  
+[proc Provider](http://dtrace.org/guide/chapter25.html)。

@@ -1,4 +1,5 @@
 * [Proc](Proc.md)
+	* [creatbyproc.d](creatbyproc.md)
 	* [filebyproc.d](filebyproc.md)
 	* [kill.d](kill.md)
 	* [newproc.d](newproc.md)

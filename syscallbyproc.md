@@ -4,7 +4,7 @@
     syscall:::entry { @num[execname] = count(); }
 
 脚本代码分析如下：  
-监听`syscall Provider`的 `entry probe`，`exec name`内置变量记录了进程名，作为`num`这个`aggregation`的`key`。当`probe`触发后，把`num`里相应进程的统计次数加`1`。
+监听`syscall Provider`的 `entry probe`，`execname`内置变量记录了进程名，作为`num`这个`aggregation`的`key`。当`probe`触发后，把`num`里相应进程的统计次数加`1`。
 
 执行脚本，输出如下：
 

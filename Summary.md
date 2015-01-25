@@ -5,6 +5,7 @@
 	* [newproc.d](newproc.md)
 	* [sigdist.d](sigdist.md)
 	* [syscallbypid.d](syscallbypid.md)
+	* [syscallbyproc.d](syscallbyproc.md)
 * [Locks](Locks.md)
 	* [lockbydist.d](lockbydist.md)
 	* [lockbyproc.d](lockbyproc.md)
